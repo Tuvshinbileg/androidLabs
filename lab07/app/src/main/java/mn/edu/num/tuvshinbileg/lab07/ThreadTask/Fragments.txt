@@ -1,0 +1,38 @@
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <fragment
+            android:id="@+id/fragment1"
+            android:name="mn.edu.num.tuvshinbileg.lab07.fragments.TaskOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <fragment
+            android:id="@+id/fragment2"
+            android:name="mn.edu.num.tuvshinbileg.lab07.fragments.TaskSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <fragment
+            android:id="@+id/fragment3"
+            android:name="mn.edu.num.tuvshinbileg.lab07.fragments.TaskThird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+

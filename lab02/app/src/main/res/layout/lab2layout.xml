@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/valueA"
+            android:textSize="@dimen/myTextSize"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <EditText
+            android:id="@+id/etValueA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="@dimen/spTextSize"
+            android:inputType="numberSigned" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/valueB"
+            android:textSize="@dimen/myTextSize"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <EditText
+            android:id="@+id/etValueB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="@dimen/spTextSize"
+            android:inputType="numberSigned">
+
+            <requestFocus />
+        </EditText>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/result"
+            android:textSize="@dimen/myTextSize"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <EditText
+            android:id="@+id/etResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="@dimen/spTextSize"
+            android:inputType="numberDecimal" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="addEvent"
+                android:text="@string/buttonAddText" />
+
+
+            <Button
+                android:id="@+id/btSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="substractEvent"
+                android:text="@string/buttonSub" />
+
+
+            <Button
+                android:id="@+id/btMulti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="multiplyEvent"
+                android:text="@string/buttonMulti" />
+
+            <Button
+                android:id="@+id/btDivide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="divideEvent"
+                android:text="@string/buttonDivide" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

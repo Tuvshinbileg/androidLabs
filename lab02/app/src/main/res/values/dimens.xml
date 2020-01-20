@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="myButtonHeight">30dp</dimen>
+    <dimen name="myTextSize">22dp</dimen>
+    <dimen name="spTextSize">22sp</dimen>
+</resources>

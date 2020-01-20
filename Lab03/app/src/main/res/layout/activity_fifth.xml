@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FifthActivity">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/fifthMytxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activity 5"/>
+            <RatingBar
+                android:id="@+id/ratingBR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/fifthMytxt"
+                android:layout_marginTop="20dp"/>
+
+            <DatePicker
+                android:id="@+id/datePicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/mybtnFifth"
+                android:datePickerMode="spinner"
+                android:layout_marginTop="70dp"
+                android:calendarViewShown="false"/>
+
+            <Button
+                android:id="@+id/mybtnFifth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/ratingBR"
+                android:layout_marginTop="70dp"
+                android:text="ok"/>
+            <TimePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner"
+                android:layout_alignTop="@+id/datePicker1"
+                android:layout_marginTop="200dp"/>
+        </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

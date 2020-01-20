@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "668733234200",
+    "firebase_url": "https://myexam-3a644.firebaseio.com",
+    "project_id": "myexam-3a644",
+    "storage_bucket": "myexam-3a644.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668733234200:android:0f749f97a5930db439b76d",
+        "android_client_info": {
+          "package_name": "mn.edu.num.tuvshinbileg.myexam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668733234200-f5ggsdf6c2q9hvuabvn8p3mfgsuvecv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mn.edu.num.tuvshinbileg.myexam",
+            "certificate_hash": "e616ae7be92d30e580a52408bb7036c8ad9a53ef"
+          }
+        },
+        {
+          "client_id": "668733234200-n7jrp0vqdtctp3vusg98q1rapb3ujb67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMv8vVvuvNxOCRvI94tM8Prbd5MTiw0RE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668733234200-n7jrp0vqdtctp3vusg98q1rapb3ujb67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

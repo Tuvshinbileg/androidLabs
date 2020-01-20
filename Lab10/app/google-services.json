@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1035626738982",
+    "firebase_url": "https://mobailexam.firebaseio.com",
+    "project_id": "mobailexam",
+    "storage_bucket": "mobailexam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035626738982:android:65c89c986cdd1447a3fde7",
+        "android_client_info": {
+          "package_name": "mn.edu.num.tuvshinbileg.mobailexam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035626738982-i87oq5iu65bu63ld5rf544fu0nuqhd62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mn.edu.num.tuvshinbileg.mobailexam",
+            "certificate_hash": "e616ae7be92d30e580a52408bb7036c8ad9a53ef"
+          }
+        },
+        {
+          "client_id": "1035626738982-l5pmg42av859h4skul9tt2juk7imn1u3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWln8Db_A55JanA5MEEr-B0yiybX5PD2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035626738982-l5pmg42av859h4skul9tt2juk7imn1u3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

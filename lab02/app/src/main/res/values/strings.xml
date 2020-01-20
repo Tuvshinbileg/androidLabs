@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lab02</string>
+    <string name="buttonAddText">Нэмэх</string>
+    <string name="buttonSub">Хасах</string>
+    <string name="buttonMulti">Үржих</string>
+    <string name="buttonDivide">Хуваах</string>
+    <string name="valueA">Эхний утга:</string>
+    <string name="valueB">Хоёр дахь утга:</string>
+    <string name="result">Үр дүн:</string>
+</resources>
